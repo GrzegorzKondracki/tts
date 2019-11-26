@@ -1,0 +1,40 @@
+/* First section  */
+.profits img {
+    right: 94px;
+}
+
+.second-section .app-img-bg img.img-app {
+    width: 850px;
+    height: auto;
+    right: 560px;
+}
+
+.lines-left {
+    left: 409px;
+}
+
+
+
+/* Footer  */
+.wrap-footer {
+    width: auto;
+    padding: 0 30px;
+}
+
+.checkbox {
+    margin-left: initial;
+}
+
+
+
+.lisc1 {
+    position: absolute;
+    top: -181px;
+    left: 44px;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -199px;
+    right: 144px;
+}

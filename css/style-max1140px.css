@@ -1,0 +1,168 @@
+.header {
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.nav {
+    padding: 0 50px 0 50px;
+}
+
+.nav.show {
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+}
+
+
+
+.logo.show {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li {
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+
+.menu li:nth-child(5) {
+    margin-right: 0;
+
+}
+
+
+.menu.show img {
+    display: none;
+}
+
+
+
+.burger {
+    display: block;
+    transform: scale(2);
+    cursor: pointer;
+    position: absolute;
+    right: 58px;
+    top: 46px;
+
+}
+
+.burger i.show {
+    display: inline;
+}
+
+.fa-times:before {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
+.menu.show {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.brand-promise {
+    margin: 189px 10%;
+}
+
+
+
+/* First section  */
+.wrap-items {
+    margin: 150px 100px 0;
+}
+
+
+
+
+/* Third section  */
+.plugin-wrap {
+    margin-top: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plugin-img img {
+    margin-top: 50px;
+}
+
+.line-right2 {
+    display: none;
+}
+
+/* Footer  */
+.fourth-section {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.wrap-footer {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type=text] {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+#message {
+    width: 300px;
+}
+
+.contact-form button {
+    right: -30px;
+    top: 169px;
+}
+
+.wrap-footer {
+    width: auto;
+    padding: 0px 100px;
+    padding-bottom: 60px;
+}
+
+.copyrights {
+    flex-direction: column;
+}
+
+.copyrights p {
+    margin-top: 20px;
+}
+
+
+.lisc1 {
+    position: absolute;
+    top: -169px;
+    left: 112px;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -159px;
+    right: 123px;
+}

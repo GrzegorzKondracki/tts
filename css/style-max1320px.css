@@ -1,0 +1,112 @@
+/* First section  */
+.first-section {
+    height: 100%;
+}
+
+.profits img {
+    right: 175px;
+    top: -50px;
+}
+
+.wrap-items {
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 150px 200px 0;
+    z-index: 3;
+}
+
+.first-section .item {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.first-section .item:nth-child(3),
+.first-section .item:nth-child(4) {
+    margin-top: 0;
+}
+
+.first-section .item:nth-child(1),
+.first-section .item:nth-child(3) {
+    margin-right: 30px;
+}
+
+
+
+/* Second section  */
+.second-section {
+    flex-direction: column;
+    width: 100%;
+    background-color: #F2F0F4;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.app-text-wrap {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0;
+    z-index: 2;
+    padding-top: 60px;
+    position: relative;
+    top: 50px;
+}
+
+.second-section .app-img-bg img.img-app {
+    position: static;
+}
+
+.app-img-bg {
+    order: 2;
+    position: relative;
+    top: 70px;
+}
+
+.lines-left {
+    display: none;
+}
+
+/* .lines-left2 {
+    position: absolute;
+} */
+
+
+
+
+/* Third section  */
+.plugin-wrap {
+    padding: 0 80px;
+}
+
+.plugin-img img {
+    width: 550px;
+}
+
+
+
+/* Footer  */
+input[type=text] {
+    width: auto;
+}
+
+.copyrights {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.copyrights p {
+    margin: auto;
+}
+
+
+
+.lisc1 {
+    position: absolute;
+    top: -221px;
+    left: 44px;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -199px;
+    right: 144px;
+}

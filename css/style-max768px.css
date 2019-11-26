@@ -1,0 +1,120 @@
+.header {
+    padding: 15px;
+    height: auto;
+}
+
+.nav {
+    margin: 0 15px;
+    padding: 0 15px 0 15px;
+}
+
+.sticky {
+    left: 15px;
+    right: 15px;
+}
+
+.brand-promise {
+    width: auto;
+    margin: 189px 30px;
+}
+
+.brand-promise h1 {
+    width: auto;
+    height: auto;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.burger {
+    right: 21px;
+}
+
+
+.fa-times:before {
+    position: absolute;
+    top: 3px;
+    right: 14px;
+}
+
+
+
+/* First section  */
+.wrap-items {}
+
+.first-section .item {
+    margin-top: 0;
+}
+
+.first-section .item:nth-child(1) {
+    margin-top: -131px;
+}
+
+.first-section .item:nth-child(1),
+.first-section .item:nth-child(3) {
+    margin-left: 30px;
+}
+
+.profits img {
+    right: 54px;
+}
+
+
+/* Second section */
+.second-section {
+    overflow: hidden;
+}
+
+.second-section .app-img-bg img.img-app {
+    width: 550px;
+    height: auto;
+}
+
+.app-text-wrap,
+.plugin-wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profits h2,
+.app-text h2,
+.plugin-text h2 {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+
+
+/* Third section  */
+.plugin-img img {
+    width: 420px;
+    margin-left: -20px;
+}
+
+.app-text,
+.plugin-text {
+    width: auto;
+}
+
+
+
+/* Footer  */
+.wrap-footer {
+    padding-right: 38px;
+    padding-left: 38px;
+}
+
+.wrap-footer h2 {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+
+.lisc1 {
+    display: none;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -178px;
+    right: 21px;
+}

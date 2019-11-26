@@ -1,0 +1,40 @@
+/* First section  */
+.profits img {
+    right: 152px;
+}
+
+
+
+
+.brand-promise {
+    margin: 189px 15%;
+}
+
+.wrap-items {
+    width: auto;
+    padding: 0 50px;
+}
+
+.second-section .app-img-bg img.img-app {
+    /* width: 850px;
+    height: auto; */
+    right: 545px;
+}
+
+
+.lines-left {
+    left: 293px;
+}
+
+
+.lisc1 {
+    position: absolute;
+    top: -181px;
+    left: 44px;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -199px;
+    right: 144px;
+}

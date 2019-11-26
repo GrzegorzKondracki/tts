@@ -1,0 +1,863 @@
+@font-face {
+    font-family: 'greycliff';
+    src: url('../fonts/greycliffcf-bold-webfont.woff2') format('woff2'),
+        url('../fonts/greycliffcf-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'greycliff-bold';
+    src: url('../fonts/greycliffcf-boldoblique-webfont.woff2') format('woff2'),
+        url('../fonts/greycliffcf-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-demi-bold';
+    src: url('../fonts/greycliffcf-demibold-webfont.woff2') format('woff2'),
+        url('../fonts/greycliffcf-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-demi-bold-oblique';
+    src: url('greycliffcf-demiboldoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-demiboldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-extra-bold';
+    src: url('../fonts/greycliffcf-extrabold-webfont.woff2') format('woff2'),
+        url('../fonts/greycliffcf-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-XBdOb';
+    src: url('greycliffcf-extraboldoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-extraboldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-heavy';
+    src: url('greycliffcf-heavy-webfont.woff2') format('woff2'),
+        url('greycliffcf-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-heavy-oblique';
+    src: url('greycliffcf-heavyoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-heavyoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-light';
+    src: url('greycliffcf-light-webfont.woff2') format('woff2'),
+        url('greycliffcf-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-light-oblique';
+    src: url('greycliffcf-lightoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-lightoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-medium';
+    src: url('greycliffcf-medium-webfont.woff2') format('woff2'),
+        url('greycliffcf-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff-medium-oblique';
+    src: url('greycliffcf-mediumoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-mediumoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'greycliff-regular';
+    src: url('../fonts/greycliffcf-regular-webfont.woff2') format('woff2'),
+        url('../fonts/greycliffcf-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'greycliff-italic';
+    src: url('greycliffcf-regularoblique-webfont.woff2') format('woff2'),
+        url('greycliffcf-regularoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background-color: #F2F0F4;
+    height: 930px;
+    padding-top: 25px;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 25% 0;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 37px 0 50px;
+    height: 111px;
+    max-width: 1860px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 15px 30px 0 rgba(79, 70, 90, 0.13);
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    top: -1px;
+    left: 30px;
+    right: 30px;
+    z-index: 5;
+}
+
+.menu {
+    display: flex;
+    animation: menuAnimation .3s linear;
+}
+
+@keyframes menuAnimation {
+    0% {
+        transform: translate(-500%, 0);
+    }
+
+    100% {
+        transform: translate(0%);
+    }
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    color: #4F465A;
+    font-family: "Greycliff";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    line-height: 21px;
+    /* position: relative; */
+}
+
+.menu li {
+    margin-left: 53px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu li:nth-child(5) {
+    box-sizing: border-box;
+    height: 54px;
+    width: 169px;
+    border: 4px solid #875CE8;
+    border-radius: 25px;
+    margin-right: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4F465A;
+}
+
+.menu ul li a.a-border:hover {
+    color: #E87A5C;
+}
+
+.menu ul li a.a-border::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    width: 120%;
+    height: 4px;
+    border-radius: 20px;
+    opacity: 0;
+    background-color: #E87A5C;
+    transform-origin: center;
+    transform: translate(-50%, 0) scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu ul li a.a-border:hover::before {
+    transform: translate(-50%, 0) scaleX(1);
+    opacity: 1;
+}
+
+.menu img {
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+.fa-times::before {
+    animation: hamburgerAnimation .3s linear;
+}
+
+@keyframes hamburgerAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(305deg);
+    }
+}
+
+.nav li {
+    transition: .3s;
+}
+
+.jelly {
+    z-index: 1;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    /* padding: 0.5em 1em; */
+    outline: none;
+    border: none;
+    /* background-color: hsl(236, 32%, 26%); */
+}
+
+.jelly:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+}
+
+@keyframes jelly {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
+
+
+
+
+/* Mobile menu  */
+.burger i {
+    display: none;
+}
+
+
+/* Brand promise  */
+.brand-promise {
+    width: 552px;
+    margin: 189px 360px;
+}
+
+.brand-promise h3 {
+    color: #E87A5C;
+    font-family: "greycliff";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.33px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.brand-promise h1 {
+    height: 156px;
+    width: 552px;
+    color: #4F465A;
+    font-family: 'greycliff-extra-bold';
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    margin-bottom: 25px;
+}
+
+.brand-promise p {
+    color: #707779;
+    font-family: 'greycliff-regular';
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    margin-bottom: 55px;
+}
+
+.brand-promise a {
+    color: #FFFFFF;
+    font-family: "greycliff";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-btn {
+    border-radius: 25px;
+    background-color: #E87A5C;
+    height: 50px;
+    width: 165px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* First section  */
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 778px;
+    overflow: hidden;
+}
+
+.profits {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.profits h2 {
+    margin-top: 150px;
+    margin-bottom: 82px;
+    height: 52px;
+    color: #4F465A;
+    font-family: "Greycliff";
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    text-align: center;
+
+}
+
+.profits img {
+    position: absolute;
+    top: -84px;
+    right: 269px;
+    z-index: -1;
+}
+
+.wrap-items {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 260px;
+    height: 361px;
+    width: 1400px;
+    border-radius: 20px;
+    background-color: #48148A;
+    box-shadow: 0 15px 30px 0 rgba(79, 70, 90, 0.13);
+    z-index: 1;
+}
+
+.first-section .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 426px;
+    width: 262px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 15px 30px 0 rgba(79, 70, 90, 0.35);
+    margin-top: -131px;
+    margin-right: 30px;
+    padding: 0 30px;
+}
+
+.first-section .item::before {
+    content: "";
+    box-sizing: border-box;
+    height: 1px;
+    width: 50px;
+    border-top: 6px solid #E87A5C;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.first-section .item img {
+    width: 107px;
+    height: 103px;
+}
+
+.first-section div:nth-child(4) {
+    margin-right: 0;
+}
+
+.first-section .item h3 {
+    height: 52px;
+    width: 205px;
+    color: #4F465A;
+    font-family: 'greycliff-extra-bold';
+    font-size: 20px;
+    letter-spacing: -0.21px;
+    line-height: 52px;
+    align-self: flex-start;
+}
+
+.first-section .item p {
+    /* height: 130px;
+    width: 205px; */
+    color: #707779;
+    font-family: 'greycliff-regular';
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+}
+
+
+
+/* Second section  */
+.second-section {
+    height: 894px;
+    margin-top: -48px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    position: relative;
+}
+
+.app-img-bg {
+    /* display: none; */
+}
+
+
+.lines-left {
+    position: relative;
+    z-index: -1;
+    left: 382px;
+    top: -34px;
+}
+
+.second-section .app-img-bg img.img-app {
+    width: 1119px;
+    height: 616px;
+    position: absolute;
+    top: 182px;
+    left: -17px;
+}
+
+.app-text-wrap {
+    background-color: #F2F0F4;
+    height: 100%;
+    width: 1238px;
+    border-radius: 20px 0 0 20px;
+    /* z-index: -1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-text {
+    width: 555px;
+}
+
+.app-text h3 {
+    color: #E87A5C;
+    font-family: 'greycliff';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.33px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.app-text h2 {
+    color: #4F465A;
+    font-family: 'greycliff-extra-bold';
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    margin-bottom: 25px;
+}
+
+.app-text p {
+    color: #707779;
+    font-family: 'greycliff-regular';
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    margin-bottom: 55px;
+}
+
+.buttons a {
+    cursor: pointer;
+}
+
+.google-play-btn {
+    margin-right: 20px;
+}
+
+
+
+/* Third section  */
+.third-section {
+    margin-bottom: 222px;
+    position: relative;
+}
+
+.line-right2 {
+    position: absolute;
+    top: -300px;
+    right: 482px;
+    z-index: -2;
+}
+
+.plugin-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 173px;
+    overflow: hidden;
+}
+
+.plugin-text {
+    width: 455px;
+    margin-top: 64px;
+}
+
+.plugin-text h3 {
+    color: #E87A5C;
+    font-family: 'greycliff';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.33px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.plugin-text h2 {
+    color: #4F465A;
+    font-family: 'greycliff-extra-bold';
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    margin-bottom: 25px;
+}
+
+.plugin-text p {
+    color: #707779;
+    font-family: 'greycliff-regular';
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    margin-bottom: 55px;
+}
+
+.google-play-btn {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.plugin-text .button {
+    box-sizing: border-box;
+    height: 54px;
+    width: 206px;
+    border: 4px solid #875CE8;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.plugin-text .button a {
+    text-decoration: none;
+    color: #4F465A;
+    font-family: 'greycliff-extra-bold';
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+
+
+/* Fourth-section  */
+.fourth-section {
+    height: 408px;
+    width: 100%;
+    background-color: #F2F0F4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    /* z-index: -1; */
+}
+
+.wrap-footer {
+    margin: 0 260px;
+    margin-top: -80px;
+    background-color: #48148A;
+    background-image: url(../img/bg-contact.png);
+    background-size: contain;
+    background-position: center;
+    height: 390px;
+    width: 1400px;
+    border-radius: 20px;
+    box-shadow: 0 -15px 30px 0 rgba(79, 70, 90, 0.13);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.wrap-footer h2 {
+    color: #FFFFFF;
+    font-family: 'greycliff-extra-bold';
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 53px;
+}
+
+input[type=text] {
+    height: 60px;
+    width: 224px;
+    border-radius: 5px;
+    background-color: #875CE8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    margin-right: 32px;
+    padding-left: 30px;
+    color: white;
+    outline: none;
+    border: 3px solid #875CE8;
+}
+
+#message {
+    margin-right: 0;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type=text]:focus {
+    padding-left: 30px;
+}
+
+
+
+#message {
+    width: 518px;
+}
+
+.contact-form {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-form button {
+    height: 86px;
+    width: 86px;
+    background-color: #E87A5C;
+    box-shadow: 0 10px 25px 0 rgba(57, 44, 73, 0.5);
+    border: none;
+    border-radius: 100%;
+    margin-left: -100px;
+    cursor: pointer;
+    position: absolute;
+    right: -15px;
+}
+
+
+.checkbox {
+    display: flex;
+    margin-top: 28px;
+    color: #C8B8DC;
+    font-family: 'greycliff-regular';
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+
+    align-self: flex-start;
+    margin-left: 130px;
+    position: relative;
+}
+
+.checkbox p {
+    margin-left: 35px;
+}
+
+.checkbox span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Window checkbox */
+input[type=checkbox] {
+    display: none;
+}
+
+.checkbox-label {
+    /* border: 1px solid rgba(128, 128, 128, 0.50); */
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #875CE8;
+}
+
+
+.checkbox-label::before {
+    content: "\2713";
+    display: block;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: white
+}
+
+input[type=checkbox]:checked+.checkbox-label::before {
+    opacity: 1;
+}
+
+.lisc1 {
+    position: absolute;
+    top: -100px;
+    left: 174px;
+    /* z-index: -1; */
+}
+
+.lisc2 {
+    position: absolute;
+    top: -199px;
+    right: 304px;
+    /* z-index: -1; */
+}
+
+
+.copyrights {
+    margin: 0 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #707779;
+    font-family: 'greycliff-regular';
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.copyrights p {
+    margin: 0 130px;
+
+}
+
+.copyrights p a {
+    color: #707779;
+    text-decoration: none;
+}
+
+.contact-form label.error {
+    position: absolute;
+    top: 0;
+    display: none !important;
+}
+
+.error {
+    border: 3px solid rgba(212, 48, 2, 0.65) !important;
+    /* background-color: rgba(212, 48, 2, 0.65) !important; */
+}
+
+.valid {
+    /* background-color: #875CE8; */
+    border: 3px solid rgba(0, 160, 0, 0.65) !important;
+}

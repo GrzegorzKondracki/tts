@@ -1,0 +1,84 @@
+/* .nav {
+    margin: 0 15px;
+    padding: 0 15px 0 15px;
+} */
+
+.header {
+    height: auto;
+}
+
+.burger {
+    right: 21px;
+    top: 46px;
+}
+
+.brand-promise {
+    margin-top: 100px;
+}
+
+.brand-promise h1,
+.profits h2,
+.app-text h2,
+.plugin-text h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.brand-promise p {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.brand-promise .header-btn {
+    height: 40px;
+}
+
+.header-btn a {
+    font-size: 16px;
+}
+
+.profits img {
+    right: 23px;
+}
+
+/* First section  */
+.wrap-items {
+    padding: 0;
+}
+
+
+/* Second section  */
+.second-section .app-img-bg img.img-app {
+    width: 430px;
+}
+
+
+/* Third section  */
+.plugin-img img {
+    width: 360px;
+}
+
+
+
+/* Footer  */
+.contact-form button {
+    right: -22px;
+}
+
+input[type=text] {
+    width: 250px;
+}
+
+#message {
+    width: 250px;
+}
+
+.wrap-footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.copyrights p {
+    width: 100%;
+    padding: 0 30px;
+}

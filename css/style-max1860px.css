@@ -1,0 +1,47 @@
+/* First section */
+.profits img {
+    right: 238px;
+}
+
+
+/* Second section  */
+.second-section .app-img-bg img.img-app {
+    right: 600px;
+    left: auto;
+}
+
+
+
+.app-text-wrap {
+    max-width: 1238px;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.lines-left {
+    left: 235px;
+}
+
+.line-right2 {
+    right: 202px;
+}
+
+
+/* Footer  */
+.copyrights {
+    margin: auto;
+}
+
+
+.lisc1 {
+    position: absolute;
+    top: -181px;
+    left: 85px;
+}
+
+.lisc2 {
+    position: absolute;
+    top: -199px;
+    right: 204px;
+}
